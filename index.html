@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hollow Knight: Silksong</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=MedievalSharp&display=swap"
+    />
+  </head>
+  <body>
+    <audio id="bg-music" loop>
+      <source
+        src="public/Lace ‐ Hollow Knight Silksong OST Official Soundtrack Original Score - Qiuvox (youtube).mp3"
+        type="audio/mpeg"
+      />
+      Seu navegador não suporta o elemento de áudio.
+    </audio>
+    <div class="audio-control">
+      <button id="audio-toggle" aria-label="Controle de áudio">
+        <span class="audio-icon">♪</span>
+      </button>
+      <div class="audio-tooltip">Música: Ligada</div>
+    </div>
+
+    <div class="container">
+      <div class="game-title">
+        <h1 class="title-hollow">HOLLOW KNIGHT</h1>
+        <div class="subtitle-silksong">SILKSONG</div>
+        <div class="title-decoration">
+          <div class="silk-line left"></div>
+          <div class="silk-line right"></div>
+          <div class="needle-icon">✤</div>
+        </div>
+      </div>
+
+      <nav class="menu">
+        <ul>
+          <li>
+            <a href="story.html" class="menu-item" data-item="start"
+              >START GAME</a
+            >
+          </li>
+          <li><a href="#" class="menu-item" data-item="options">OPTIONS</a></li>
+          <li><a href="#" class="menu-item" data-item="extra">EXTRA</a></li>
+          <li><a href="#" class="menu-item" data-item="quit">QUIT GAME</a></li>
+        </ul>
+      </nav>
+
+      <div class="selection-arrow"></div>
+
+      <div class="hint">
+        Use as setas ↑ ↓ para navegar e Enter para selecionar
+      </div>
+
+      <div class="silksong-theme">
+        <div class="theme-text">A kingdom forgotten. A princess awakened.</div>
+      </div>
+    </div>
+
+    <div class="background-effects">
+      <div class="particles-container"></div>
+      <div class="silk-strands"></div>
+      <div class="red-glow"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
