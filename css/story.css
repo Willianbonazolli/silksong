@@ -148,9 +148,8 @@ body {
 
 .features-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
-  height: 100%;
   align-content: center;
 }
 
@@ -162,8 +161,8 @@ body {
 .feature-card {
   background: rgba(10, 10, 10, 0.6);
   border: 1px solid rgba(255, 255, 255, 0.15);
-  border-radius: 6px;
-  padding: 25px;
+  border-radius: 10px;
+
   text-align: center;
   transition: all 0.3s ease;
 }
@@ -176,10 +175,10 @@ body {
 
 .feature-icon {
   font-size: 2.5rem;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   color: #ffffff;
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
-  height: 80px;
+  height: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
