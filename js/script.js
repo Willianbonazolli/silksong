@@ -133,12 +133,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
         case "options":
           showMessage("Opções do jogo - Em desenvolvimento");
-          // Aqui iria o código para abrir as opções
+          
           break;
 
         case "extra":
           showMessage("Conteúdo Extra - Arte e Trilha Sonora");
-          // Aqui iria o código para conteúdo extra
+          
           break;
 
         case "quit":
